@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
 
 <!-- Link estilos -->
-t" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
 <!-- link de tipografias web -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,53 +18,80 @@ t" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Gloria+Hallelujah&family=Just+Me+Again+Down+Here&family=Merriweather:ital,wght@0,400;1,300;1,400&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,800&family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,800&family=Public+Sans:ital,wght@0,200;0,600;0,700;1,300;1,500&display=swap" rel="stylesheet">
 
 
+<!------------------------- Sección 1 --------------------------->
 <body>
-    <header class="header"> <!-- Encabezado_Seccion 1-->
-        <h1>Trastorno del Espectro Autista (TEA)</h1>
+    <div class="grid"> <!-- Padre de toda la estructura -->
+        <h1 Class="tituloPrincipal">Trastorno del Espectro Autista (TEA)</h1>
+        
+        <header class="header"> <!-- header -->         
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Pages/Informacion_Basica.html">Información Básica</a></li>
+                    <li><a href="Pages/Sintomas.html">Síntomas</a></li>
+                    <li><a href="Pages/Diagnostico_Tratamiento.html">Diagnóstico y Tratamiento</a></li>
+                    <li><a href="Pages/Historias_Reales.html">Historias Reales</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <nav class="menuPrincipal">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Pages/Informacion_Basica.html">Información Básica</a></li>
-                <li><a href="Pages/Sintomas.html">Síntomas</a></li>
-                <li><a href="Pages/Diagnostico_Tratamiento.html">Diagnóstico y Tratamiento</a></li>
-                <li><a href="Pages/Historias_Reales.html">Historias Reales</a></li>
-            </ul>
-        </nav>
-    </header>
 
-     <div class="contenido"> <!-- Seccion 2 -->
-        <div>
-            <p> El trastorno del espectro del autismo (TEA) es una condición de origen neurobiológico que afecta a la configuración del sistema nervioso y al funcionamiento cerebral.
-                Acompaña a la persona a lo largo de su vida y afecta, fundamentalmente, a dos áreas del funcionamiento personal: la comunicación e interacción social, y la flexibilidad del comportamiento y del pensamiento.
-                
-            </p>
-            <h2> Características</h2>
-            <h3> Especificidad</h3>
-            <p> Las características nucleares del TEA son específicas, aunque a veces aparecen asociadas a otras condiciones como la discapacidad intelectual, trastornos del lenguaje o problemas de salud mental.</p>
-            <h3>Causas y origen</h3>
-            <p> El TEA es una condición genética, aunque hasta el momento no se ha descubierto un único gen directamente vinculado con el autismo, sino que es el resultado de múltiples mutaciones en interacción con el ambiente. La ciencia considera que más de cien posibles genes distintos pueden estar implicados en el TEA, y los factores ambientales (como ciertas características de los progenitores o eventos perinatales) contribuyen en buena medida al desarrollo y evolución de la condición.</p>
-            <h3>Discapacidad invisible</h3>
-            <p> El TEA no lleva asociado ningún rasgo físico y diferenciador. Solo se manifiesta a nivel de las competencias cognitivas de la persona y del comportamiento.</p>
-            <h3>Variabilidad</h3>
-            <p>No hay dos personas con TEA iguales; todas tienen sus propios intereses, capacidades y necesidades, aunque compartan un mismo diagnóstico.</p>
-            <h3>Ciclo de vida</h3>
-            <p>El TEA acompaña a la persona a lo largo de toda la vida, aunque sus manifestaciones pueden variar en función de la etapa vital, de las experiencias y de los apoyos con los que cuentan las personas.</p>
-            <h3>Familias</h3>
-            <p>Son el principal apoyo de la persona en el espectro del autismo. El TEA impacta no solo en ella, sino en todas las personas cercanas que la rodean.</p>
+<!---------------------------Seccion 2-------------------------------- --->
+
+        <section class="TEA"> 
+            <h2 class="titulo2">¿Que es TEA?</h2>
+            <div class="Informacion1">
+                <p> El trastorno del espectro del autismo (TEA) es una condición de origen neurobiológico que afecta a la configuración del sistema nervioso y al funcionamiento cerebral.
+                    Acompaña a la persona a lo largo de su vida y afecta, fundamentalmente, a dos áreas del funcionamiento personal: la comunicación e interacción social, y la flexibilidad del comportamiento y del pensamiento.   
+                </p>
+            </div>       
+        </section>
+
+        <div class="imagenTexto">
+            <img class="imagen1" src="Img/Img_Pagina principal .jpeg" alt="Imagen de niño autista">
         </div>
-        <img class="Imagen" src="Img/Img_Pagina principal .jpeg" alt="Imagen de niño autista">
-  
 
+<!---------------------------Seccion 3-------------------------------- --->
 
-    </div>    
+        <div class="imagenTexto2">
+            <img class="imagen2" src="Img/caracteristicas.jpg" alt="Imagen de niño autista">
+        </div>
+
+        <section  class="Caracteristicas"> 
+            <h2 class="titulo2"> Características</h2>
+            <div class="Informacion2">
+
+                <h3> Especificidad</h3>
+                <p> Las características nucleares del TEA son específicas, aunque a veces aparecen asociadas a otras condiciones como la discapacidad intelectual, trastornos del lenguaje o problemas de salud mental.</p>
+                <h3>Causas y origen</h3>
+                <p> El TEA es una condición genética, aunque hasta el momento no se ha descubierto un único gen directamente vinculado con el autismo, sino que es el resultado de múltiples mutaciones en interacción con el ambiente. La ciencia considera que más de cien posibles genes distintos pueden estar implicados en el TEA, y los factores ambientales (como ciertas características de los progenitores o eventos perinatales) contribuyen en buena medida al desarrollo y evolución de la condición.</p>
+                <h3>Discapacidad invisible</h3>
+                <p> El TEA no lleva asociado ningún rasgo físico y diferenciador. Solo se manifiesta a nivel de las competencias cognitivas de la persona y del comportamiento.</p>
+                <h3>Variabilidad</h3>
+                <p>No hay dos personas con TEA iguales; todas tienen sus propios intereses, capacidades y necesidades, aunque compartan un mismo diagnóstico.</p>
+                <h3>Ciclo de vida</h3>
+                <p>El TEA acompaña a la persona a lo largo de toda la vida, aunque sus manifestaciones pueden variar en función de la etapa vital, de las experiencias y de los apoyos con los que cuentan las personas.</p>
+                <h3>Familias</h3>
+                <p>Son el principal apoyo de la persona en el espectro del autismo. El TEA impacta no solo en ella, sino en todas las personas cercanas que la rodean.</p>
+                
+            </div>   
+        </section> 
    
+<!---------------------------Seccion 4-------------------------------- --->
 
-    <main class="main"> <!-- Seccion 3 -->
-        <h2> Datos de interés  </h2>
-        <h3>Estadisticas sobre el TEA</h4>
+        <section class="DatosInteres"> 
+            <h2 class="titulo2"> Datos de interés  </h2>
+            <h3>Estadisticas sobre el TEA</h3>
+            <p class="DatosEstadisticos">explicacion</p>
+        </section>
 
-    </main>
+<!---------------------------Seccion 5-------------------------------- --->
+
+        <footer class="footer"> <!-- Footer -->
+            <p>Derechos reservados a Mirian Guerra</p>
+        </footer>
+
+    </div>
 
 <!-- Script JS -->
     <script src="js/bootstrap.min.js"></script>
